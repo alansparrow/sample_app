@@ -1,0 +1,29 @@
+commit cbaedb3b80b927bf6269fb3993da50d897d92324
+Author: csigi <trannguyenbaotrung@gmail.com>
+Date:   Sun Feb 17 00:41:25 2013 +0900
+
+    Add Contact Page
+
+commit 47628b4b5338718abc5b40789eea81f2dc899a66
+Author: csigi <trannguyenbaotrung@gmail.com>
+Date:   Sat Feb 16 23:16:52 2013 +0900
+
+    Finish static pages
+
+commit 318c481a8a0b979fae0860d84c737df23fff62f6
+Author: csigi <trannguyenbaotrung@gmail.com>
+Date:   Sat Feb 16 12:00:46 2013 +0900
+
+    Add Static Pages Controller
+
+commit fbd5635ffbcef73b81f27c1485e543dc08ac9d93
+Author: csigi <trannguyenbaotrung@gmail.com>
+Date:   Sat Feb 16 10:25:21 2013 +0900
+
+    Improve the README
+
+commit 8ab524e03db6d4c526577d4c98f0427e7424ebe2
+Author: csigi <trannguyenbaotrung@gmail.com>
+Date:   Sat Feb 16 10:21:17 2013 +0900
+
+    Initial commit
