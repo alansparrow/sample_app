@@ -8,7 +8,7 @@
 			<li><%= link_to "About",   about_path %></li>
 			<li><%= link_to "Contact", contact_path %></li>
 			<li><a href="http://news.railstutorial.org/">News</a></li>
-			<li>Your IP: <%= @client_ip %></li>
+			<li>Your IP: <%= get_client_ip %></li>
 		</ul>
 	</nav>
 </footer>

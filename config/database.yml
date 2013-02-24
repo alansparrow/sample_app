@@ -7,7 +7,7 @@ development:
   username: csigi
   password:
 
-test:
+test: &test
   adapter: postgresql
   encoding: unicode
   database: app-dev
@@ -24,3 +24,6 @@ production:
   timeout: 5000
   username: csigi
   password:
+
+cucumber:
+  <<: *test
