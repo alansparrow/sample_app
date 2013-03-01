@@ -148,5 +148,20 @@ describe "Authentication" do
 				specify { response.should redirect_to(root_path) }
 			end
 		end
+
+		describe "when viewing others' post" do
+			let!(:user) { FactoryGirl.create(:user) }
+			let!(:user_post) { FactoryGirl.create(:micropost, user: user) }
+			let!(:other_user) { FactoryGirl.create(:user) }
+			let!(:other_user_post) { FactoryGirl.create(:micropost, user: other_user) }
+			before do
+				sign_in user
+				visit user_path(other_user)
+			end
+
+			it "should not see delete link" do
+				page.should_not have_link('delete', href: micropost_path(other_user_post))
+			end
+		end
 	end
 end
