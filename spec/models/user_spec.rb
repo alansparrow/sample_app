@@ -212,6 +212,10 @@ describe User do
 
   end
 
+  describe "relationships associations" do
+    
+  end
+
   describe "following" do
     let(:other_user) { FactoryGirl.create(:user) }
     before do
