@@ -9,3 +9,4 @@ ActionMailer::Base.smtp_settings = {
 }
 
 ActionMailer::Base.default_url_options[:host] = "www.sagwija.com:80"
+Mail.register_interceptor(DevelopmentMailInterceptor) 
