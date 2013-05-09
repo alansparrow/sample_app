@@ -7,3 +7,5 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'heroku.com',
   :enable_starttls_auto => true
 }
+
+# ActionMailer::Base.default_url_options[:host] = "rails32sampleapp.herokuapp.com"
