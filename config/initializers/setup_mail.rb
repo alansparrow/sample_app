@@ -8,4 +8,4 @@ ActionMailer::Base.smtp_settings = {
   :enable_starttls_auto => true
 }
 
-# ActionMailer::Base.default_url_options[:host] = "rails32sampleapp.herokuapp.com"
+ActionMailer::Base.default_url_options[:host] = "www.sagwija.com:80"
