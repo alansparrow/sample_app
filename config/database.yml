@@ -5,7 +5,7 @@ development:
   pool: 5
   timeout: 5000
   username: csigi
-  password:
+  password: 
 
 test: &test
   adapter: postgresql
@@ -14,7 +14,7 @@ test: &test
   pool: 5
   timeout: 5000
   username: csigi
-  password:
+  password: 
 
 production:
   adapter: postgresql
